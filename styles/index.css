@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+html {
+  height: 100%;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d6e2f0;
+  height: 100%;
+}
+
+body .main {
+  height: 97%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .card {
+  background-color: white;
+  width: 19em;
+  margin: auto;
+  padding: 1.1em;
+  border-radius: 25px;
+}
+
+body .main .card .qr-code img {
+  height: auto;
+  width: 100%;
+  border-radius: 13px;
+}
+
+body .main .card .content {
+  text-align: center;
+  margin: 0 1em 1em 1em;
+}
+
+body .main .card .content .title h1 {
+  color: #1f3251;
+  font-size: 1.2em;
+}
+
+body .main .card .content .description p {
+  color: #7b879d;
+  font-size: 15px;
+}
+
+body footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body footer .attribution a {
+  color: #3e52a3;
+  text-decoration: none;
+}
+/*# sourceMappingURL=index.css.map */

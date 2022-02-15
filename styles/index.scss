@@ -14,7 +14,7 @@ body {
     background-color: hsl(212, 45%, 89%);
     height: 100%;
 
-    .main {
+    main {
         height: 97%;
         min-height: 600px;
         display: flex;
@@ -28,7 +28,7 @@ body {
             margin: 4em auto;
             padding: 1.1em;
             border-radius: 25px;      
-            box-shadow: 10px 20px 40px hsl(212deg 45% 87%);
+            box-shadow: 10px 20px 40px hsl(212deg, 45%, 87%);
 
             .qr-code {
 

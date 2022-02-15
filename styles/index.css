@@ -14,7 +14,7 @@ body {
   height: 100%;
 }
 
-body .main {
+body main {
   height: 97%;
   min-height: 600px;
   display: -webkit-box;
@@ -32,31 +32,33 @@ body .main {
           align-items: center;
 }
 
-body .main .card {
+body main .card {
   background-color: white;
   width: 18em;
   margin: 4em auto;
   padding: 1.1em;
   border-radius: 25px;
+  -webkit-box-shadow: 10px 20px 40px #cfdded;
+          box-shadow: 10px 20px 40px #cfdded;
 }
 
-body .main .card .qr-code img {
+body main .card .qr-code img {
   height: auto;
   width: 100%;
   border-radius: 13px;
 }
 
-body .main .card .content {
+body main .card .content {
   text-align: center;
   margin: 0 1em 1em 1em;
 }
 
-body .main .card .content .title h1 {
+body main .card .content .title h1 {
   color: #1f3251;
   font-size: 1.2em;
 }
 
-body .main .card .content .description p {
+body main .card .content .description p {
   color: #7b879d;
   font-size: .9em;
 }

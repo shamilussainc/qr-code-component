@@ -16,6 +16,7 @@ body {
 
 body .main {
   height: 97%;
+  min-height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,8 +34,8 @@ body .main {
 
 body .main .card {
   background-color: white;
-  width: 19em;
-  margin: auto;
+  width: 18em;
+  margin: 4em auto;
   padding: 1.1em;
   border-radius: 25px;
 }
@@ -57,7 +58,7 @@ body .main .card .content .title h1 {
 
 body .main .card .content .description p {
   color: #7b879d;
-  font-size: 15px;
+  font-size: .9em;
 }
 
 body footer .attribution {

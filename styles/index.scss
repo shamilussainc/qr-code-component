@@ -16,6 +16,7 @@ body {
 
     .main {
         height: 97%;
+        min-height: 600px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -23,10 +24,10 @@ body {
 
         .card {
             background-color: hsl(0, 0%, 100%);
-            width: 19em;
-            margin: auto; 
+            width: 18em;
+            margin: 4em auto;
             padding: 1.1em;
-            border-radius: 25px;           
+            border-radius: 25px;       
 
             .qr-code {
 
@@ -52,7 +53,7 @@ body {
                 .description {
                     p {
                         color: hsl(220, 15%, 55%);
-                        font-size: 15px;
+                        font-size: .9em;
                     }
                 }
             }

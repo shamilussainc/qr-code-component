@@ -23,8 +23,8 @@ This is my first Frontend Mentor project. A simple card component which contain 
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
 - Live Site URL: [https://shamilussainc.github.io/qr-code-component/](https://shamilussainc.github.io/qr-code-component/)
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-using-html5-and-scss-ZiPvCv5qs](https://www.frontendmentor.io/solutions/qr-code-component-using-html5-and-scss-ZiPvCv5qs)
 
 ## My process
 
